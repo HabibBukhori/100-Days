@@ -1,0 +1,39 @@
+package DayThree;
+
+public class Day3 {
+
+public static void main(String[] args) {
+
+  // Hari ke 3 ini saya hanya menambahkan tipe data non primitif yaitu String
+  System.out.println("Identitas Saya :");
+  // Menambahkan type data non primitif
+
+  String nama_lengkap = "Ahmad Habib Bukhori";
+  String alamat = "Lembang";
+  System.out.println("Nama Lengkap: "+nama_lengkap);
+  System.out.println("Alamat :"+alamat);
+  
+  // type data primitif
+  
+  byte umur = 18;
+  short tahun_lahir = 2005;
+  int kode_pos = 91413;
+  long no_wa = 6285348678024l;
+  double tinggi = 175;
+  float berat = 60;
+  char jenis_kelamin = 'L';
+  boolean status_pernikahan = false;
+  
+  System.out.println("umur: "+umur+ " Tahun");
+  System.out.println("tahun lahir: "+tahun_lahir);
+  System.out.println("kode pos: "+kode_pos);
+  System.out.println("no wa: +"+no_wa);
+  System.out.println("tinggi: "+tinggi);
+  System.out.println("berat: "+berat);
+  System.out.println("jenis kelamin: "+jenis_kelamin);
+  System.out.println("status pernikahan: "+status_pernikahan);
+
+  // Jika ada kesalahan pada codingan saya tolong untuk di koreksi dan terimakasih.
+  
+  }
+}
